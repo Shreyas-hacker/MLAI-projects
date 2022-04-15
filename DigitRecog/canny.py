@@ -5,8 +5,8 @@ import numpy as np
 from PIL import Image
 from cv2 import threshold
 
-directory = 'C:/Users/shrey/OneDrive - Nanyang Technological University/Desktop/MLAI projects/DigitRecog/Dataset/trainingSet/trainingSet/0'
-new_direc = 'C:/Users/shrey/OneDrive - Nanyang Technological University/Desktop/MLAI projects/DigitRecog/Dataset/trainingSet/trainingSet/new_0'
+directory = 'C:/Users/shrey/OneDrive - Nanyang Technological University/Desktop/MLAI projects/DigitRecog/Dataset/trainingSet/trainingSet/9'
+new_direc = 'C:/Users/shrey/OneDrive - Nanyang Technological University/Desktop/MLAI projects/DigitRecog/Dataset/trainingSet/trainingSet/new_9'
 count = 1
 for image in os.listdir(directory):
     image_path = os.path.join(directory, image)
