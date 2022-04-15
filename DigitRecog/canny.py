@@ -2,7 +2,7 @@ import cv2
 import os
 from cv2 import threshold
 
-directory = 'DigitRecog/Digit'
+directory = ''
 for image in os.listdir(directory):
     image_path = os.path.join(directory, image)
     img = cv2.imread(image_path)
