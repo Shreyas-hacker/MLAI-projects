@@ -6,8 +6,8 @@ from PIL import Image
 from cv2 import threshold
 
 for i in range(0,10):
-    directory = f'C:/Users/shrey/OneDrive - Nanyang Technological University/Desktop/Dataset/trainingSet/trainingSet/{i}'
-    new_direc = 'C:/Users/shrey/OneDrive - Nanyang Technological University/Desktop/Dataset/trainingSet/trainingSet/FinalSet/'
+    directory = f'C:/Users/shrey/OneDrive - Nanyang Technological University/Desktop/Dataset/testSet/{i}'
+    new_direc = 'C:/Users/shrey/OneDrive - Nanyang Technological University/Desktop/Dataset/testSet/final_test'
     count = 1
     for image in os.listdir(directory):
         try:
