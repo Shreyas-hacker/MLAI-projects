@@ -1,10 +1,7 @@
 from copyreg import pickle
-import enum
-from lib2to3.pytree import _Results
 import random
 import json
 import pickle
-from unittest import result
 import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
