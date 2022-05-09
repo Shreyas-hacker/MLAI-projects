@@ -1,13 +1,10 @@
 # import statements
-from configparser import InterpolationSyntaxError
 import random
 import json
 import pickle
-from matplotlib.font_manager import json_dump
 import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
-from pyparsing import WordStart
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
