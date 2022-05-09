@@ -29,10 +29,10 @@ for intent in intents['intents']: #list of dictionaries
         if intent['tag'] not in classes:
             classes.append(intent['tag'])
 
-words = [lemmatizer.lemmatize(word) for word in words if word not in ignore_letters]
-words = sorted(set(words))
+words = [lemmatizer.lemmatize(word.lower()) for word in words if word not in ignore_letters]
+words = sorted(list(set(words)))
 
-classes = sorted(set(classes))
+classes = sorted(list(set(classes)))
 
 pickle.dump(words, open('words.pkl','wb'))
 pickle.dump(classes, open('classes.pkl','wb'))
